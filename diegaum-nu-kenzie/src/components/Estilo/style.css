@@ -1,0 +1,58 @@
+:root {
+    --color-primary: 253, 55, 126;
+    --color-primary2: 227, 73, 129;
+    --color-secondary: 3, 184, 152;
+    --grey-4: 33, 37, 41;
+    --grey-3: 134, 142, 150;
+    --grey-2: 233, 236, 239;
+    --grey-1: 248, 249, 250;
+  }
+  
+  .title-1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: rgba(var(--grey-4), 1);
+    line-height: 48px;
+  }
+  
+  .title-2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(var(--grey-4), 1);
+    line-height: 34px;
+  }
+  
+  .title-3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(var(--grey-4), 1);
+    line-height: 30px;
+  }
+  
+  .title-4 {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(var(--grey-4), 1);
+    line-height: 26px;
+  }
+  
+  .titulo {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(var(--grey-3), 1);
+    line-height: 26px;
+  }
+  
+  .body {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(var(--grey-3), 1);
+    line-height: 22px;
+  }
+  

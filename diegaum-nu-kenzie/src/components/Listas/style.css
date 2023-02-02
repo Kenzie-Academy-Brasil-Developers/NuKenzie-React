@@ -1,0 +1,36 @@
+.div--container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 562px;
+  margin-top: 30px;
+}
+
+.cards--buttons-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.buttons--cardList {
+  display: flex;
+  gap: 10px;
+}
+
+.list--infos {
+  display: flex;
+  max-height: 600px;
+  flex-direction: column;
+  padding: 0 10px;
+  gap: 16px;
+}
+
+@media (min-width: 960px) {
+  .cards--buttons-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
